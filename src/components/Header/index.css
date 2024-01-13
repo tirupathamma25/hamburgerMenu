@@ -1,0 +1,65 @@
+.website-logo {
+  height: 50px;
+  width: 50px;
+}
+
+.header-card {
+  display: flex;
+}
+.header-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-item {
+  list-style-type: none;
+  margin-left: 8px;
+  text-decoration: none;
+  color: #616e7c;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.hamburger-button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  height: 30px;
+  width: 40px;
+}
+
+.label-text {
+  color: #ffffff;
+}
+.close-button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  height: 30px;
+  width: 40px;
+  align-self: flex-end;
+}
+.modal-card {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.un-ordered-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}

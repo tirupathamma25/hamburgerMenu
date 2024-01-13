@@ -1,0 +1,11 @@
+@media (min-width: 769px) {
+  .home-img-sm {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-img-lg {
+    display: none;
+  }
+}
